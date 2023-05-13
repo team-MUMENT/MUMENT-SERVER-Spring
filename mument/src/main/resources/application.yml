@@ -1,0 +1,18 @@
+#spring:
+#  datasource:
+#  #
+#  url:
+#  username:
+#  password:
+#  driver-class-name: com.mysql.jdbc.Driver
+#jpa:
+#  hibernate:
+#    ddl-auto: create
+#  properties:
+#    hibernate:
+#      show_sql: true
+#      format_sql: true
+#    logging.level:
+#      org.hibernate.SQL: debug
+# org.hibernate.type: trace #스프링 부트 2.x, hibernate5
+# org.hibernate.orm.jdbc.bind: trace #스프링 부트 3.x, hibernate6
